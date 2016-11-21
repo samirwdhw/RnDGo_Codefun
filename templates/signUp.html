@@ -2,9 +2,6 @@
 
 
 {% block content %}
-    {% if form.errors %}
-<p>Your username and password didn't match. Please try again.</p>
-{% endif %}
 
 {% if next %}
     {% if user.is_authenticated %}
@@ -22,24 +19,12 @@
                         <h3 class="panel-title">Please Sign In or <a href="{% url 'post_newUser' %}" class = "top-menu">Sign Up</a></h3>
                     </div>
                     <div class="panel-body">
-<form method="post" action="{% url 'login' %}">
-{% csrf_token %}
-<p class="bs-component">
-<table>
-<tr>
-    <td>{{ form.username.label_tag }}</td>
-    <td>{{ form.username }}</td>
-</tr>
-<tr>
-    <td>{{ form.password.label_tag }}</td>
-    <td>{{ form.password }}</td>
-</tr>
-</table>
-</p>
-<p class="bs-component">
-<center><input class="btn btn-success btn-sm" type="submit" value="login" /></center>
-</p>
-<input type="hidden" name="next" value="{{ next }}" />
+<form method="post" class="post-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <center><input class="btn btn-success btn-sm" type="submit" value="Submit" /></center>
+    <input type="hidden" name="next" value="{{ next }}" />
 </form>
 </div>
 </div>
