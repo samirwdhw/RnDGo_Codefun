@@ -1,0 +1,8 @@
+prefix=/home/anish/catkin_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.4
+Cflags: -I/home/anish/catkin_ws/src/usb_cam-develop/include
+Libs: -L/home/anish/catkin_ws/devel/lib -lusb_cam
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/anish/catkin_ws/devel
+
+Name: vatsal
+Description: Description of vatsal
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/anish/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,10 @@
+/home/anish/catkin_ws/install/_setup_util.py
+/home/anish/catkin_ws/install/env.sh
+/home/anish/catkin_ws/install/setup.bash
+/home/anish/catkin_ws/install/setup.sh
+/home/anish/catkin_ws/install/setup.zsh
+/home/anish/catkin_ws/install/.rosinstall
+/home/anish/catkin_ws/install/lib/pkgconfig/beginner_tutorials.pc
+/home/anish/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
+/home/anish/catkin_ws/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+/home/anish/catkin_ws/install/share/beginner_tutorials/package.xml
